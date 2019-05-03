@@ -21,8 +21,24 @@ textarea
     {
         background-color:#f8df74;
         border: 1px solid #9f0808;
+        margin-left: 31%;
+        margin-top: -2%;
     }
 label
     {
-        
+        float: left;
+        text-align: right;
+        width: 30%;
+        margin-right:5px;
+        font-size: 13px;
+    }
+input[type="submit"]
+    {
+        height: 28px;
+        width: auto;
+        margin-left: 31%;
+    }
+select
+    {
+        background-color: #f8df74;
     }
