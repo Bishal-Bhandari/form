@@ -1,8 +1,9 @@
 fieldset
     {
-        width: 50%;
+        width: 40%;
         margin-left: 25%;
         height: auto;
+        border: 1px solid #9f0808;
     }
 legend 
     {
@@ -11,51 +12,17 @@ legend
     padding: 3px 6px;
     border: 1px solid black;
     }
-   
-    /*
+input
+    {
+        background-color:#f8df74;
+        border: 1px solid #9f0808;
+    }
+textarea
+    {
+        background-color:#f8df74;
+        border: 1px solid #9f0808;
+    }
 label
     {
-        float: right;
-    }
-    
-body 
-    {
-    text-align: center;
-    }
-form 
-    {
-    width: 83%;
-    }
-#lnl1
-    {
-        margin-left: 12%;
-    }
-#lnl2
-    {
-        margin-left: 6%;
-    }
-#lnl3
-    {
-        margin-left: -7%;
-    }
-#lnl4
-    {
-        margin-left: -3%;
-    }
-#lnl5
-    {
-        margin-left: -5%;
-    }
-#lnl6
-    {
-        margin-left: -18%;
-    }
-#lnl7
-    {
-        margin-left: 3%;
-    }
-    
-#lnl8
-    {
-        margin-left: 6%;
+        
     }
