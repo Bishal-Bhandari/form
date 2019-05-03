@@ -2,44 +2,46 @@
 <html>
     <head>
         <title>Form</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
+    <div class="form">
         <form>
-            <fieldset>
-            <legend>This is my form</legend>
+            <fieldset id="field">
+            <legend id="legend">This is my form</legend>
             
-                <label for="email">Email:</label>
+                <label for="email" id="lnl1">Email:</label>
                 <input type="email" name="email" id="email"><br>
                 
-                <label for="pwd">Password:</label>
+                <label for="pwd" id="lnl2">Password:</label>
                 <input type="password" name="password" id="pwd"><br>
                 
-                <label for="cpwd">Confirm Password:</label>
+                <label for="cpwd" id="lnl3">Confirm Password:</label>
                 <input type="password" name="cpwd" id="cpwd"><br>
                 
-                <label for="file">Upload Your Picture:</label>
+                <label for="file" id="lnl4">Upload Your Picture:</label>
                 <input type="file" name="file" id="file"><br>
                 
-                <label for="gen">Gender:</label>
+                <label for="gen" id="lnl5">Gender:</label>
                 <input type="radio" name="gen" id="male">
                 <label for="gen">Male</label>
                 <input type="radio" name="gen" id="femal">
                 <label for="gen">female</label><br>
                 
-                <label for="country">Select Country:</label>
+                <label for="country" id="lnl6">Select Country:</label>
                 <select name="country">
                     <option value="uk">United Kingdom</option>
                     <option value="nep">Nepal</option>
                 </select><br>
                 
-                <label for="hobby">Hobby:</label>
+                <label for="hobby" id="lnl7">Hobby:</label>
                 <input type="checkbox" name="crc" id="crc">
                 <label for="crc">Cricket</label>
                 <input type="checkbox" name="fot" id="fot">
                 <label for="fot">Football</label><br>
                 
-                <label for="add">Address:</label>
+                <label for="add" id="lnl8">Address:</label>
                 <textarea rows="4" cols="50">
                 </textarea><br>
                 
@@ -47,7 +49,7 @@
                 
             </fieldset>
         </form>
-        
+        </div>
     </body>
 </html>
 
